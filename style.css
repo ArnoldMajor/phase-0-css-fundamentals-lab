@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  background-color: lightgrey;
+  padding: 0px 10px;
+}
+
+#featured-property {
+  display: inline;
+  text-align: center;
+}
+
+#featured-property p {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  padding-bottom: 20px;
+}
+
+#details {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: red;
+}
